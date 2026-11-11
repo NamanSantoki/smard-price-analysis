@@ -1,0 +1,51 @@
+{
+  "total_records": 69023,
+  "date_start": "2019-01-01 00:00:00+00:00",
+  "date_end": "2026-11-15 22:00:00+00:00",
+  "duplicate_timestamps": 0,
+  "gaps_in_hourly_grid": 0,
+  "total_negative_hours": 2510,
+  "negative_share_pct": 3.641,
+  "annual_negative_hours": {
+    "2019": {
+      "total_hours": 8759,
+      "negative_hours": 211,
+      "negative_pct": 2.41
+    },
+    "2020": {
+      "total_hours": 8784,
+      "negative_hours": 298,
+      "negative_pct": 3.39
+    },
+    "2021": {
+      "total_hours": 8760,
+      "negative_hours": 139,
+      "negative_pct": 1.59
+    },
+    "2022": {
+      "total_hours": 8760,
+      "negative_hours": 69,
+      "negative_pct": 0.79
+    },
+    "2023": {
+      "total_hours": 8760,
+      "negative_hours": 301,
+      "negative_pct": 3.44
+    },
+    "2024": {
+      "total_hours": 8784,
+      "negative_hours": 457,
+      "negative_pct": 5.2
+    },
+    "2025": {
+      "total_hours": 8760,
+      "negative_hours": 573,
+      "negative_pct": 6.54
+    },
+    "2026": {
+      "total_hours": 7562,
+      "negative_hours": 462,
+      "negative_pct": 6.11
+    }
+  }
+}
