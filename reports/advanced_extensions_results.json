@@ -1,0 +1,27 @@
+{
+  "probabilistic_forecasting": {
+    "empirical_coverage_80pct": 0.506392694063927,
+    "nominal_coverage_80pct": 0.8,
+    "avg_interval_width_eur_mwh": 46.127532814253996,
+    "pinball_losses": {
+      "pinball_loss_q10": 6.2787957137018084,
+      "pinball_loss_q50": 14.078686271643125,
+      "pinball_loss_q90": 4.706670939602343
+    }
+  },
+  "bess_arbitrage_simulation": {
+    "system_specs": "10 MW / 20 MWh (2-hour duration), 85% round-trip efficiency, max 1 cycle/day",
+    "eval_days_count": 364,
+    "annualized_revenue_eur": {
+      "perfect_foresight_upper_bound": 491113.59664737433,
+      "lightgbm_forecast_guided": 419605.5759272668,
+      "naive_lag24_guided": 363414.22069363814
+    },
+    "annualized_revenue_eur_per_mw": {
+      "perfect_foresight_upper_bound": 49111.359664737436,
+      "lightgbm_forecast_guided": 41960.55759272668,
+      "naive_lag24_guided": 36341.42206936381
+    },
+    "theoretical_capture_rate_pct": 85.43961698306407
+  }
+}

@@ -41,6 +41,7 @@ def main():
     run("run_step2_eda.py")
     run("run_step3_stats.py")
     run("run_step4_forecast.py")
+    run("run_advanced.py")
     run("run_step5_powerbi.py")
 
     # Run unit tests
